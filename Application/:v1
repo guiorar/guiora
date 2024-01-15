@@ -1,0 +1,19 @@
+Using default tag: latest
+The push refers to repository [quay.io/guiora/guiora1]
+ee6796516516: Preparing
+a225c81e4734: Preparing
+d6e96c2d2e59: Preparing
+5f70bf18a086: Preparing
+47d18ff11044: Preparing
+ed3888a8ac3e: Preparing
+86426b9e591d: Preparing
+ed3888a8ac3e: Waiting
+86426b9e591d: Waiting
+5f70bf18a086: Pushed
+d6e96c2d2e59: Pushed
+ee6796516516: Pushed
+a225c81e4734: Pushed
+ed3888a8ac3e: Pushed
+86426b9e591d: Pushed
+47d18ff11044: Pushed
+latest: digest: sha256:9ab68e4704499bb6309dd8a6bbd2e927cbb118c95bca8faccfc4620337a9828a size: 1790
