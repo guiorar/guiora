@@ -3,11 +3,6 @@ apiVersion: apps/v1
 metadata:
   name: {{ .Chart.Name }}
 spec:
-  volumes:
-        - name: index-html
-          configMap:
-            name: '{{ .Chart.Name }}-html'
-            defaultMode: 420
   replicas: {{ .Values.ReplicaNumber }}
   selector:
     matchLabels:
@@ -17,6 +12,11 @@ spec:
       labels:
         app: {{ .Chart.Name }}
     spec:
+      volumes:
+        - name: index-html
+          configMap:
+            name: '{{ .Chart.Name }}-html'
+            defaultMode: 420
       containers:
         - resources: {}
           terminationMessagePath: /dev/termination-log
